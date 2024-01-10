@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .road {
+    height: 100vh;
+    background-color: #2ecc71; /* Green for the grass */
+    position: relative;
+  }
+  
+  .car {
+    width: 50px;
+    height: 30px;
+    background-color: #3498db; /* Blue for the car */
+    position: absolute;
+    bottom: 10px;
+    animation: moveCar 5s linear infinite;
+  }
+  
+  @keyframes moveCar {
+    0% {
+      left: -50px;
+    }
+    100% {
+      left: 100vw; /* Move the car across the entire width of the viewport */
+    }
+  }

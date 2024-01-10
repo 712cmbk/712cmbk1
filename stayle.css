@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: black;
+    border: 1px solid darksalmon;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+}
+
+.wrapper .footer_wraper {
+    width: 23%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 25px;
+}
+
+
+.wrapper .footer_wraper a {
+    color: gray;
+    text-decoration: none;
+}
